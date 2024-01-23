@@ -2,9 +2,36 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5vh;
+}
+
+header{
+    border: solid 5px red;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    
+    margin-top: 0.5vh;
+    border: solid 3px red;
+    width: 36vh;
 }
 
 .content{
-    background-color: brown;
-    margin: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.departamento{
+    text-align: center;
 }
